@@ -1,65 +1,11 @@
-header {
-  margin-top: -4%;
-  padding: 4% 2%;
+header.site-header {
+  padding: .25% 1.5%;
 }
 
-@media screen and (max-width: 640px) {
-  main {
-    margin: 0 3%;
-  }
-
-  .byLine:children {
-    display: none;
-  }
-
-  #hamburger {
-    cursor: pointer;
-    display: block;
-    position:absolute;
-    top:2%;
-    right:2%;
-  }
-
-  .nav-items {
-    display: none;
-  }
-
-  nav:hover .nav-items {
-    display: block;
-  }
-
-  nav {
-    margin-left: -8%;
-  }
-
-  nav ul {
-    list-style-type: none;
-    width: 100%;
-  }
-
-  nav ul li {
-    border-bottom: 1px solid grey;
-    margin-bottom: 2%;
-    padding-bottom: 2%;
-  }
-
-  nav ul li a {
-    color: grey;
-    font-size: 30px;
-    text-decoration: none;
-  }
-
-  .article-body img {
-    padding: 3% 0;
-  }
-
-  .article-body p {
-    line-height: 1.6;
-  }
+footer {
+  padding: 2%;   
 }
 
-@media screen and (min-width: 640px) {
-  #hamburger {
-    display: none;
-  }
+.article-body p {
+  line-height: 1.6;
 }
