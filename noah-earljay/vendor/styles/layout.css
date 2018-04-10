@@ -1,0 +1,11 @@
+header.site-header {
+  padding: .25% 1.5%;
+}
+
+footer {
+  padding: 2%;   
+}
+
+.article-body p {
+  line-height: 1.6;
+}
